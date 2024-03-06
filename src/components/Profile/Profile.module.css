@@ -18,7 +18,9 @@
 }
 
 .profileImg {
-  width: 100px;
+  width: 120px;
+  background-color: black;
+  border-radius: 50%;
 }
 
 .profileName {
