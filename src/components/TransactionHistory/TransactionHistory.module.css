@@ -1,0 +1,25 @@
+.table {
+  border: 1px solid black;
+  width: 500px;
+}
+
+.tableHeader {
+  background-color: black;
+  color: white;
+}
+
+tr {
+  text-align: center;
+}
+
+.tableWhite {
+  background-color: white;
+}
+
+.tableGray {
+  background-color: gray;
+}
+
+.tableData {
+  border: 1px solid black;
+}

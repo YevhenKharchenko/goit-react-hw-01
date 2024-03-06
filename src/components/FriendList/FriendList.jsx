@@ -3,7 +3,7 @@ import FriendListItem from '../FriendListItem/FriendListItem';
 
 function FriendList({ friends }) {
   return (
-    <ul>
+    <ul className={css.friendList}>
       {friends.map(friend => {
         return (
           <li key={friend.id}>

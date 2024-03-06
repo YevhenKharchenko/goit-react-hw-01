@@ -8,23 +8,23 @@ function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <div>
-      <div>
-        <img src={image} alt="User avatar" />
-        <p>{name}</p>
+    <div className={css.profileWrapper}>
+      <div className={css.profileImgWrapper}>
+        <img className={css.profileImg} src={image} alt="User avatar" />
+        <p className={css.profileName}>{name}</p>
         <p>{tag}</p>
         <p>{location}</p>
       </div>
-      <ul>
-        <li>
+      <ul className={css.profileList}>
+        <li className={css.profileItem}>
           <span>Followers</span>
           <span>{followers}</span>
         </li>
-        <li>
+        <li className={css.profileItem}>
           <span>Views</span>
           <span>{views}</span>
         </li>
-        <li>
+        <li className={css.profileItem}>
           <span>Likes</span>
           <span>{likes}</span>
         </li>
